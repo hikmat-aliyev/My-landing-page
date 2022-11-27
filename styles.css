@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    font-family: arial, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 0 124px;
+
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 132px;
+    gap: 16px;
+    background-color: rgba(13, 58, 5, 0.422);
+    margin: 0;
+}
+
+#baki {
+    border-radius: 8px;
+    width: 700px;
+    height: 400px;
+}
+
+.welcome {
+    color: rgb(32, 26, 18);
+    width: 700px;
+    height: 400px;
+    padding: 8px;
+    margin: 0;
+}
+
+button {
+    background-color: rgba(43, 63, 5, 0.66);
+    color: antiquewhite;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(32, 26, 18);
+}
+
+.image {
+    width: 250px;
+    height: 150px;
+    border-radius: 4px;
+    border: 4px rgba(66, 97, 8, 0.66) solid;
+}
+
+.windows {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 32px 132px;
+    padding-bottom: 132px;
+}
+.main2 {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.window {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    font-size: 16px;
+    font-family: arial, monospace;
+}
+.main3 {
+    padding: 132px;
+    background-color: rgba(104, 255, 147, 0.31);
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.main4 {
+    display: flex;
+    padding: 32px 132px;
+    align-items: center;
+    justify-content: center;
+    gap: 132px;
+    background-color: rgba(14, 125, 46, 0.527);
+    margin: 132px;
+    border-radius: 16px;
+
+}
+
+#lastbutton {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+     font-size: 15px;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:  rgba(13, 58, 5, 0.422);
+     height: 80px;
+}
